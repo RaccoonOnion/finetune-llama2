@@ -1,0 +1,13 @@
+accelerate
+appdirs
+loralib
+bitsandbytes
+datasets
+fire
+git+https://github.com/huggingface/peft.git
+transformers==4.31.0
+sentencepiece
+scipy
+protobuf
+torch
+IPython

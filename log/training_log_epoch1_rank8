@@ -1,0 +1,41 @@
+Yunxiang Yan GTID: 903941829
+
+2023-12-07 03:29:48,079 - INFO - Training parameters: {'base_model': 'meta-llama/Llama-2-7b-hf', 'data_path': 'yahma/alpaca-cleaned', 'output_dir': './lora-alpaca-r8', 'batch_size': 128, 'micro_batch_size': 4, 'num_epochs': 1, 'learning_rate': 0.0003, 'cutoff_len': 256, 'val_set_size': 2000, 'lora_r': 8, 'lora_alpha': 16, 'lora_dropout': 0.05, 'lora_target_modules': ['q_proj', 'v_proj'], 'train_on_inputs': True, 'group_by_length': True, 'wandb_project': '', 'wandb_run_name': '', 'wandb_watch': '', 'wandb_log_model': '', 'resume_from_checkpoint': False, 'prompt template': 'alpaca'}
+2023-12-07 03:39:39,936 - INFO - Step 10, Loss: 1.407
+2023-12-07 03:47:11,570 - INFO - Step 20, Loss: 1.4773
+2023-12-07 03:53:22,930 - INFO - Step 30, Loss: 1.5014
+2023-12-07 03:58:05,185 - INFO - Step 40, Loss: 1.2292
+2023-12-07 04:02:03,160 - INFO - Step 50, Loss: 1.0609
+2023-12-07 04:09:34,368 - INFO - Step 60, Loss: 0.9504
+2023-12-07 04:17:10,409 - INFO - Step 70, Loss: 1.0008
+2023-12-07 04:23:26,616 - INFO - Step 80, Loss: 0.9654
+2023-12-07 04:28:09,904 - INFO - Step 90, Loss: 0.8424
+2023-12-07 04:32:08,374 - INFO - Step 100, Loss: 0.5402
+2023-12-07 04:39:44,730 - INFO - Step 110, Loss: 0.8803
+2023-12-07 04:47:18,320 - INFO - Step 120, Loss: 0.9018
+2023-12-07 04:53:38,730 - INFO - Step 130, Loss: 0.8818
+2023-12-07 04:58:22,993 - INFO - Step 140, Loss: 0.7124
+2023-12-07 05:02:21,920 - INFO - Step 150, Loss: 0.5651
+2023-12-07 05:09:53,280 - INFO - Step 160, Loss: 0.8923
+2023-12-07 05:17:25,949 - INFO - Step 170, Loss: 0.8698
+2023-12-07 05:23:40,253 - INFO - Step 180, Loss: 0.8585
+2023-12-07 05:28:19,553 - INFO - Step 190, Loss: 0.6885
+2023-12-07 05:32:17,811 - INFO - Step 200, Loss: 0.5548
+2023-12-07 05:39:48,878 - INFO - Step 210, Loss: 0.8856
+2023-12-07 05:47:20,490 - INFO - Step 220, Loss: 0.9029
+2023-12-07 05:53:30,211 - INFO - Step 230, Loss: 0.8326
+2023-12-07 05:58:09,549 - INFO - Step 240, Loss: 0.6903
+2023-12-07 06:02:07,365 - INFO - Step 250, Loss: 0.5524
+2023-12-07 06:09:39,140 - INFO - Step 260, Loss: 0.8859
+2023-12-07 06:17:10,720 - INFO - Step 270, Loss: 0.9261
+2023-12-07 06:23:27,425 - INFO - Step 280, Loss: 0.8274
+2023-12-07 06:28:10,747 - INFO - Step 290, Loss: 0.6858
+2023-12-07 06:32:08,410 - INFO - Step 300, Loss: 0.5725
+2023-12-07 06:39:39,762 - INFO - Step 310, Loss: 0.8603
+2023-12-07 06:47:11,018 - INFO - Step 320, Loss: 0.9103
+2023-12-07 06:53:24,511 - INFO - Step 330, Loss: 0.8127
+2023-12-07 06:58:05,203 - INFO - Step 340, Loss: 0.6867
+2023-12-07 07:02:03,780 - INFO - Step 350, Loss: 0.5885
+2023-12-07 07:09:36,835 - INFO - Step 360, Loss: 0.8949
+2023-12-07 07:16:40,302 - INFO - Step 370, Loss: 0.8877
+2023-12-07 07:21:42,308 - INFO - Step 380, Loss: 0.6971
