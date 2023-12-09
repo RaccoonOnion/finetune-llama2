@@ -112,7 +112,7 @@ def main(
             )
         s = generation_output.sequences[0]
         output = tokenizer.decode(s)
-        return prompter.get_response(output)
+        return prompter.get_response(output).replace("</s>", "")
     
     # testing code
     for instruction in [
@@ -138,6 +138,7 @@ def main(
         # Read and write each line, one at a time
         for line in reader:
             writer.write(evaluate(line)+"\n")
+    print("Outputs are written to test-output.txt")
 
 if __name__ == "__main__":
     fire.Fire(main)
